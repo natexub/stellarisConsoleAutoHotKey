@@ -41,7 +41,7 @@ AddCommand(commands, commandType, itemList, _id){
     return commands
 }
 
-AddEffectToPlant(){
+AddEffectToPlanet(){
     effects_1:=["effect add_modifier={modifier=extensive_moon_system days=-1}","effect add_modifier={modifier=mineral_rich days=-1}","effect add_modifier={modifier=ultra_rich days=-1}","effect add_modifier={modifier=lush_planet days=-1}", "effect add_modifier={modifier=natural_beauty days=-1}", "effect add_modifier={modifier=asteroid_belt days=-1}", "effect add_modifier={modifier=paradise_planet days=-1}", "effect add_modifier={modifier=strong_magnetic_field days=-1}", "effect add_modifier={modifier=carbon_world days=-1}"]
     effects_2:=["effect add_deposit = d_organic_landfill","effect add_deposit = d_metal_boneyard", "effect add_deposit = d_ancient_mining_site","effect add_deposit = d_harvester_fields","effect add_deposit = d_odd_factory", "effect add_deposit = d_betharian_deposit","effect add_deposit = d_fuming_bog", "effect add_deposit = d_crystal_forest", "effect add_deposit = d_dust_desert", "effect add_deposit = d_alien_pets_deposit", "effect add_deposit = d_wetware_computer","effect add_deposit = d_valley_of_zanaam", "effect add_deposit = d_dragon_monument"]
     return Concat(effects_1, effects_2, effects_2, effects_2)

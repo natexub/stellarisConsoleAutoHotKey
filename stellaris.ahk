@@ -79,7 +79,7 @@ Commands := ["max_resources", "activate_all_traditions","add_relic all","researc
 AddAscensionPerk(Commands)
 
 leaders:= ["0","1","2","3","4"]
-AddTraitsToLeaders(Commands,  leaders)`
+AddTraitsToLeaders(Commands,  leaders)
 
 specieId := "1"
 AddTraitsToSpecie(Commands, specieId)
